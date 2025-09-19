@@ -1,8 +1,0 @@
-:root { --bg:#0b1220; --card:#111a2b; --text:#e7ecf7; --accent:#29a37c; }
-*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,Segoe UI,Roboto,Arial}
-a{color:var(--accent);text-decoration:none}
-.container{max-width:980px;margin:40px auto;padding:0 20px}
-.nav{display:flex;gap:12px;margin-bottom:20px}
-.card{background:var(--card);padding:20px;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
-input,button{padding:10px 12px;border-radius:10px;border:1px solid #2a3550;background:#0f1729;color:#e7ecf7}
-button{cursor:pointer}

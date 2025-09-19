@@ -1,0 +1,1 @@
+Vercel'de API fonksiyonları 'api/' klasöründedir. Bu klasör sadece görsel benzerlik için eklendi.

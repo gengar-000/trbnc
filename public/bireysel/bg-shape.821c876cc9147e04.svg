@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="442px" height="392px" viewBox="0 0 442 392" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="221" cy="196" rx="221" ry="196"></ellipse>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header_bg">
+            <g id="Group">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#302F2C" xlink:href="#path-1"></use>
+                <g id="Group-3" mask="url(#mask-2)" fill="#514F4F">
+                    <g transform="translate(-82.000000, -67.000000)" id="Path-Copy">
+                        <path d="M109.845277,71.8350911 C50.2370786,116.868677 45.4297953,332.043967 109.845277,369.942963 C175.067846,408.319471 373.318941,296.356975 373.318941,220.896049 C373.318941,145.435124 170.204173,26.2432377 109.845277,71.8350911 Z" transform="translate(218.318941, 219.733873) scale(-1, 1) rotate(-144.000000) translate(-218.318941, -219.733873) "></path>
+                    </g>
+                </g>
+                <g id="Group-2" mask="url(#mask-2)" fill="#FCB000">
+                    <g transform="translate(-62.000000, 119.000000)" id="Path">
+                        <path d="M52.845277,9.83509106 C-6.76292135,54.8686769 -11.5702047,270.043967 52.845277,307.942963 C118.067846,346.319471 316.318941,234.356975 316.318941,158.896049 C316.318941,83.4351243 113.204173,-35.7567623 52.845277,9.83509106 Z" transform="translate(161.318941, 157.733873) scale(-1, 1) rotate(-91.000000) translate(-161.318941, -157.733873) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
