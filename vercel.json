@@ -1,5 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/(.*)", "destination": "https://445454455-8545-8745.site/narod00/$1" }
-  ]
-}
