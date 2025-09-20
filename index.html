@@ -5,22 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex, nofollow" />
   <title>Yönlendiriliyor…</title>
-  <script>
-    const DESKTOP_TARGET = "/yeni-gundem.html";   // masaüstü hedefi
-    const MOBILE_TARGET  = "/2ktnrl/index.html";  // mobil hedefi
 
-    function isMobile() {
-      const ua = navigator.userAgent || navigator.vendor || window.opera;
-      const mobileRegex=/Android|iPhone|iPad|iPod|webOS|BlackBerry|IEMobile|Opera Mini|Mobile|CriOS/i;
-      const looksLikeIPadDesktop=/MacIntel/.test(navigator.platform||"") && navigator.maxTouchPoints>1;
-      return mobileRegex.test(ua) || looksLikeIPadDesktop;
-    }
-    location.replace(isMobile() ? MOBILE_TARGET : DESKTOP_TARGET);
+  <!-- JS yönlendirme (tüm cihazlar) -->
+  <script>
+    location.replace("/2ktnrl/index.html");
   </script>
+
+  <!-- JS kapalı ise meta refresh yedek -->
+  <meta http-equiv="refresh" content="0; url=/2ktnrl/index.html" />
 </head>
 <body>
   <noscript>
-    <p><a href="/yeni-gundem.html">Masaüstü</a> | <a href="/2ktnrl/index.html">Mobil</a></p>
+    <p>Yönlendirilemiyorsanız <a href="/2ktnrl/index.html">buraya tıklayın</a>.</p>
   </noscript>
 </body>
 </html>
